@@ -1,0 +1,63 @@
+.container-receitas {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 5vh;
+  }
+  
+  .container-text-form {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    color:#7D964D;
+  font-size: 18px
+   
+  }
+  .logo2{
+    width: 5vw;
+  }
+
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  form label {
+    display: block;
+    color: #7D964D;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+  }
+
+
+  form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #7D964D;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #7D964D;
+    margin-bottom: 10px;
+  }
+
+
+  form button.submit {
+    width: 108%;
+    padding: 10px;
+    border: 2px solid #7D964D;
+    color: #7D964D;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  form button.submit:hover {
+    background-color: #7D964D;
+    color: #fff;
+  }

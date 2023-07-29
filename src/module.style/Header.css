@@ -1,0 +1,80 @@
+/* Definir estilos gerais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilizar a header */
+.container-header {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+  background-color: rgba(125, 150, 77, 0.7);
+  /* Certifique-se de que a header fica acima de outros elementos */
+  position: relative;
+}
+
+/* Estilizar a navegação */
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.list-navigation {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.list-navigation li {
+  margin: 0 20px;
+}
+
+.list-navigation li a {
+  text-decoration: none;
+  color: #F2F2F2; /* Defina a cor dos links da navegação */
+}
+
+.container-header:hover .list-navigation li a {
+  color: #fff;
+}
+
+/* Estilos para o menu hamburguer */
+.menu-hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburger-line {
+  width: 30px;
+  height: 3px;
+  background-color: #F2F2F2;
+  margin: 3px;
+}
+
+/* Estilos quando o menu hamburguer estiver aberto */
+.navigation.open {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.list-navigation.open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-navigation.open li {
+  margin: 10px 0;
+}
+
+.list-navigation.open li a {
+  color: #F2F2F2;
+}
